@@ -1,0 +1,25 @@
+{
+  "name": "js-error-scanner",
+  "version": "1.0.0",
+  "description": "scan urls for errors with playwright",
+  "main": "src/scan-js-errors.js",
+  "scripts": {
+    "start": "node src/scan-js-errors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtt101/js-error-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dtt101/js-error-scanner/issues"
+  },
+  "homepage": "https://github.com/dtt101/js-error-scanner#readme",
+  "dependencies": {
+    "p-limit": "^6.2.0",
+    "playwright": "^1.52.0"
+  }
+}
